@@ -9,6 +9,6 @@ import (
 
 func main() {
 	fmt.Println("It's finally time for Advent of Code!")
-	result := day01.Part1()
+	result := day01.Part2()
 	fmt.Println(result)
 }
