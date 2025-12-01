@@ -2,7 +2,6 @@ package day01
 
 import (
 	"aoc2025/utils"
-	"fmt"
 	"strconv"
 )
 
@@ -11,7 +10,6 @@ func Part1() int {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(len(inputs))
 
 	var total, pos int
 	pos = 50
@@ -40,7 +38,6 @@ func Part2() int {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(len(inputs))
 
 	var total, pos int
 	pos = 50
@@ -67,9 +64,6 @@ func Part2() int {
 		if pos == 0 && dir == "L" {
 			total += 1
 		}
-		// fmt.Printf("%s\t%d\t%d\n", line, pos, total)
 	}
-
-	fmt.Printf("Position: %d\n", pos)
 	return total
 }
