@@ -6,7 +6,7 @@ import (
 )
 
 func Part1() int {
-	inputs, err := utils.ReadFileLines("day01/inputs1.txt")
+	inputs, err := utils.ReadFileLines("day01/inputs.txt")
 	if err != nil {
 		panic(err)
 	}
@@ -34,7 +34,7 @@ func Part1() int {
 }
 
 func Part2() int {
-	inputs, err := utils.ReadFileLines("day01/inputs1.txt")
+	inputs, err := utils.ReadFileLines("day01/inputs.txt")
 	if err != nil {
 		panic(err)
 	}
