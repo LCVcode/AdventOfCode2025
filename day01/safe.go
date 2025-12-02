@@ -36,7 +36,7 @@ func Part1() int {
 func Part2() int {
 	inputs, err := utils.ReadFileLines("day01/inputs.txt")
 	if err != nil {
-		panic(err)
+		panic(err) 
 	}
 
 	var total, pos int
@@ -53,6 +53,7 @@ func Part2() int {
 		
 		for pos < 0 {
 			pos += 100
+			// Handles special case where a left turn started from 0
 			if pos + num != 100 {
 				total += 1
 			}
