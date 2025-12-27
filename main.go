@@ -9,6 +9,7 @@ import (
 	// "aoc2025/day03"
 	// "aoc2025/day04"
 	"aoc2025/day05"
+	"aoc2025/day06"
 )
 
 
@@ -42,7 +43,13 @@ func main() {
 	start = time.Now()
 	d5p1Result := day05.Part1()
 	fmt.Printf("Day 5 Part 1 | %d | %v\n", d5p1Result, time.Since(start))
-	d5p2Result := day05.Part2()
 	start = time.Now()
+	d5p2Result := day05.Part2()
 	fmt.Printf("Day 5 Part 2 | %d | %v\n", d5p2Result, time.Since(start))
+	start = time.Now()
+	d6p1Result := day06.Part1()
+	fmt.Printf("Day 6 Part 1 | %d | %v\n", d6p1Result, time.Since(start))
+	start = time.Now()
+	d6p2Result := day06.Part2()
+	fmt.Printf("Day 6 Part 2 | %d | %v\n", d6p2Result, time.Since(start))
 }
